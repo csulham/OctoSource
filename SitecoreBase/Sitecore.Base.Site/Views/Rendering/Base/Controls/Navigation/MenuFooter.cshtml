@@ -1,0 +1,11 @@
+﻿@using Sitecore.Base.Helpers
+@using Sitecore.Base.Site.Models.Base.Menu
+
+@model MenuFooter
+
+@foreach (MenuItem menuItem in Model.MenuList)
+{
+    <li><a href="@menuItem.Url">@menuItem.Title</a></li>
+}
+
+

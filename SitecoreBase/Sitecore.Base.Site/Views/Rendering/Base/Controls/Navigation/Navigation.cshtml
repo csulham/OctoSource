@@ -1,0 +1,11 @@
+﻿@using Sitecore.Base.Site.Models.Base.Navigation
+
+@model Navigation
+<ul class="nav">
+    @foreach (NavigationItem menuItem in Model.NavigationList)
+    {
+        <li class="@menuItem.Active"><a href="@menuItem.Url">@menuItem.Title</a></li>
+
+    }
+
+</ul>

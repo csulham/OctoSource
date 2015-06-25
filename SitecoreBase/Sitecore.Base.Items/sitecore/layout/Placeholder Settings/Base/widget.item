@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {E52631AF-7D1E-492D-9434-DA1F7A515D81}
+database: master
+path: /sitecore/layout/Placeholder Settings/Base/widget
+parent: {B719B2C1-B3EB-46B8-8AAD-12EBA1EB3450}
+name: widget
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 6
+
+widget
+----field----
+field: {E391B526-D0C5-439D-803E-17512EAE6222}
+name: Allowed Controls
+key: allowed controls
+content-length: 38
+
+{A1C5B0E5-9149-4025-8D34-38DB3FDE5CBF}
+----version----
+language: en
+version: 1
+revision: dbeeeb14-5177-4acf-8cb1-794605b0c386
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140627T142701
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbeeeb14-5177-4acf-8cb1-794605b0c386
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150102T142623:635558055837112741
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {5E69A288-7027-4C14-B358-7C86222A6F85}
+database: master
+path: /sitecore/templates/Base/Folders/Site Folder/__Standard Values
+parent: {F272B97A-DCF6-482C-9062-C4BD5BEBFC7B}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F272B97A-DCF6-482C-9062-C4BD5BEBFC7B}
+templatekey: Site Folder
+
+----field----
+field: {6E4C152A-061D-426B-866E-297CD4DC1A70}
+name: Site Logo
+key: site logo
+content-length: 58
+
+<image mediaid="{B62BAE16-A5BC-4809-BB90-1E28C42220F4}" />
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 31b8a167-c8c3-48d4-955b-0dbeb7ab6e8a
+
+----field----
+field: {CDAEC5DC-A4F6-4A13-881E-AAFFEEB49766}
+name: Copyright
+key: copyright
+content-length: 12
+
+©2014, $name
+----field----
+field: {72230CC3-0429-43D1-9754-C528E7D881E6}
+name: Default Menu Path
+key: default menu path
+content-length: 52
+
+/sitecore/content/$name/Settings/Menu List/Main Menu
+----field----
+field: {8C27F3C1-9D43-4072-92AE-7373E95B817B}
+name: Default Footer Menu Path
+key: default footer menu path
+content-length: 54
+
+/sitecore/content/$name/Settings/Menu List/Footer Menu
+----field----
+field: {F1F8545B-F260-4AE1-887B-73E0BBACDC48}
+name: Default Carousel
+key: default carousel
+content-length: 41
+
+/sitecore/content/$name/Carousels/Default
+----field----
+field: {3940E49B-09AB-4A91-ACFC-C800A7E2A0DF}
+name: Default Slogan
+key: default slogan
+content-length: 39
+
+/sitecore/content/$name/Slogans/Default
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140624T145434
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31b8a167-c8c3-48d4-955b-0dbeb7ab6e8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150106T153451:635561552914538934
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

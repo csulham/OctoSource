@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {274F65CB-072F-4E91-926E-43EF9D683867}
+database: master
+path: /sitecore/templates/Base/Global Content/Slogan/__Standard Values
+parent: {DF6010E2-9DAE-4C78-84B5-018051AD3B11}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DF6010E2-9DAE-4C78-84B5-018051AD3B11}
+templatekey: Slogan
+
+----version----
+language: en
+version: 1
+revision: 6f3c4590-5c3e-45b4-9b39-8f4ef0dba043
+
+----field----
+field: {99D545A8-228E-49C1-A302-CFD4B74533D2}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {EFEB1109-1FAD-49E3-896F-ACDCDE8FF3D1}
+name: Description
+key: description
+content-length: 123
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----field----
+field: {C7C2CB12-7179-4332-AD0D-368605E94EB1}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{996EBDDD-2817-41A1-90C9-7B2E479425ED}" />
+----field----
+field: {B26FDD77-C56B-4670-99FF-CB8798A35D98}
+name: Link
+key: link
+content-length: 101
+
+<link text="Follow the link" linktype="external" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150105T111648
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6f3c4590-5c3e-45b4-9b39-8f4ef0dba043
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150106T164231:635561593516444674
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using System.Web.Mvc.Html
+@inherits System.Web.Mvc.WebViewPage
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+@Html.Partial("~/Views/Rendering/Base/Head/Head.cshtml")
+<body>
+    <form method="post" action="/" id="mainform">
+        @Html.Partial("~/Views/Rendering/Base/BasePage/Header.cshtml")
+        @Html.Sitecore().Placeholder("main")
+        @Html.Partial("~/Views/Rendering/Base/BasePage/Footer.cshtml")
+    </form>
+    @Html.Partial("~/Views/Rendering/Base/Head/Script.cshtml")
+</body>
+</html>

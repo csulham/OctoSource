@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Base.Helpers
+@inherits System.Web.Mvc.WebViewPage
+              
+
+<footer>
+    <nav class="navbar navbar-inverse navbar-bottom navbar-block">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                @Html.Sitecore().Placeholder("menufooter")
+            </ul>
+            <div class="nav navbar-nav navbar-right">
+                <span class="nav-text">@Html.Sitecore().GetSiteCopyright()</span>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+
+

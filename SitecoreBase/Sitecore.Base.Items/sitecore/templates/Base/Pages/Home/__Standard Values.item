@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {70A53AC0-E46B-4594-BC6A-9383FA2E512A}
+database: master
+path: /sitecore/templates/Base/Pages/Home/__Standard Values
+parent: {4291EDE0-8A5E-4B2E-A08F-D1299B262181}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4291EDE0-8A5E-4B2E-A08F-D1299B262181}
+templatekey: Home
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1262
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{43908ED4-6485-41B1-BC0E-FA6C4AA7EC5C}"><r id="{49D2C874-BEA4-4BAF-9A6D-3364AAEC2E83}" ph="MenuHeader" uid="{1FE4A2A5-DF2B-4A63-9944-71AEC3CEF369}" /><r ds="" id="{C020A9E8-A293-4742-AE5C-00BA6230F99F}" par="" ph="menufooter" uid="{C34FE434-D3EE-4FA2-9AE5-524B354EA010}" /><r id="{A1C5B0E5-9149-4025-8D34-38DB3FDE5CBF}" ph="widget" uid="{1F01BFCC-3DE8-42AF-9B21-640ADFA3783D}" /><r id="{A1C5B0E5-9149-4025-8D34-38DB3FDE5CBF}" ph="widget" uid="{F393C286-C878-42A5-BBA0-7653F051001D}" /><r id="{A1C5B0E5-9149-4025-8D34-38DB3FDE5CBF}" ph="widget" uid="{84DAC2F5-3E23-4087-85D7-62C4FD10272F}" /><r ds="" id="{6195AEEA-974B-4FAB-B843-DF67E72264C9}" par="" ph="main" uid="{305179D6-4955-418A-8FDE-F9CF266E8D48}" /><r ds="" id="{808D1D9A-9D9F-499E-97CF-D7138DD18564}" par="" ph="main" uid="{949E78D9-5944-406B-BE30-55F4AD559391}" /><r id="{E48EF9E4-9F6F-47C1-BA65-9227054573A0}" ph="main" uid="{16A06570-FE64-490A-B0C2-1006010DDA37}" /><r ds="" id="{3677DB56-185D-4027-8DA8-B74292DFA734}" par="" ph="columns" uid="{939B7C57-C2AC-4BA8-9712-19DC8DDBD6CE}" /><r id="{72CCB4A1-3420-403A-B1B8-085B3B49156B}" ph="search" uid="{1AB3EDBA-AF6F-4350-B89D-BEDBCFE89402}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 09cf9f39-1365-4e83-98d4-22296dfb3176
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140624T155608
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+09cf9f39-1365-4e83-98d4-22296dfb3176
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150107T205629:635562609898358064
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

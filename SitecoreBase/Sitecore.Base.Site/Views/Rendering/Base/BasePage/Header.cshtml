@@ -1,0 +1,33 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Base.Helpers
+@inherits System.Web.Mvc.WebViewPage
+
+
+        <!-- Fixed Navbar -->
+<nav class="navbar navbar-inverse navbar-top navbar-block">
+    <div class="container">
+        <!-- Nav Header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                @Html.Sitecore().GetSiteLogo()
+            </a>
+        </div>
+        <!-- End of Nav Header -->
+        <!-- Nav Collapse -->
+        <div class="collapse navbar-collapse" id="topNavbar">
+            <ul class="nav navbar-nav">
+                @Html.Sitecore().Placeholder("MenuHeader")
+            </ul>
+           @Html.Sitecore().Placeholder("search")
+        </div>
+        <!-- End of Nav Collapse -->
+    </div>
+</nav>
+
+
+

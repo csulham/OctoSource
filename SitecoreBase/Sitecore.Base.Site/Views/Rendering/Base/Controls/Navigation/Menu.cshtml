@@ -1,0 +1,11 @@
+﻿@using Sitecore.Base.Helpers
+@using Sitecore.Base.Site.Models.Base.Menu
+
+@model Menu
+
+@foreach (MenuItem menuItem in Model.MenuList)
+{
+    <li><a href="@menuItem.Url" class="current">@menuItem.Title</a></li>
+}
+
+

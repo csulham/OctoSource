@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {41011FCC-73ED-4852-818B-A2DCA7464A50}
+database: master
+path: /sitecore/templates/Base/Global Content/Carousel Item/__Standard Values
+parent: {316B69EF-A1C4-45BB-891E-64C59EA4BB16}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {316B69EF-A1C4-45BB-891E-64C59EA4BB16}
+templatekey: Carousel Item
+
+----version----
+language: en
+version: 1
+revision: 85a9bb99-6ece-4fae-b59c-1d79752eead3
+
+----field----
+field: {FFEF38FB-8D84-4E9E-8073-66CB2B61B4AF}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {88689F13-6675-4BB5-AB01-B365B2FB4506}
+name: Description
+key: description
+content-length: 123
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----field----
+field: {348004D3-829D-4ACF-A6DB-51A3354A8879}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{996EBDDD-2817-41A1-90C9-7B2E479425ED}" />
+----field----
+field: {B6A1F088-ADCF-49CD-B599-89261C76CF82}
+name: Link
+key: link
+content-length: 101
+
+<link text="Follow the link" linktype="external" url="http://www.sitecore.net" anchor="" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150105T111648
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85a9bb99-6ece-4fae-b59c-1d79752eead3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150106T164211:635561593316148301
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

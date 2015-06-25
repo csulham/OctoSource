@@ -1,0 +1,47 @@
+﻿@using Sitecore.Base.Helpers
+@using Sitecore.Base.Site.Models.Base.Carousel
+
+@model Carousel
+
+<div id="homeCarousel" class="carousel slide carousel-fade">
+    <!-- Items -->
+    <div class="carousel-inner">
+        @foreach (CarouselItem menuItem in Model.CarouselList)
+        {
+            <div class="item @menuItem.Active">
+                @Html.Sitecore().Field("Image", menuItem.Item)
+                <div class="container">
+                    <div class="carousel-caption carousel-caption-lg">
+                        <h1 class="resizable"> @Html.Sitecore().Field("Title", menuItem.Item)</h1>
+                        <p>@Html.Sitecore().Field("Description", menuItem.Item)</p>
+                        <p>
+                            @Html.Sitecore().Field("Link", menuItem.Item, new { @class = "btn btn-lg btn-primary" })
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <!-- Carousel Controls -->
+    <div class="carousel-btns">
+        <button id="prevButton" type="button" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </button>
+        <button id="playButton" type="button" class="btn btn-default btn-xs is-paused">
+            <span class="glyphicon glyphicon-pause"></span>
+        </button>
+        <button id="nextButton" type="button" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </button>
+    </div>
+    <ol class="carousel-indicators-custom carousel-indicators">
+        @{ int i = 0; }
+        @foreach (CarouselItem menuItem in Model.CarouselList)
+        {
+            <li data-target="#homeCarousel" data-slide-to="@i" class="@menuItem.Active"></li>
+            i++;
+        }
+    </ol>
+
+</div>

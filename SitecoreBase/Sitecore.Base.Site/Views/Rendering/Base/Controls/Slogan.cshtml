@@ -1,0 +1,22 @@
+﻿@using Sitecore.Base.Site.Models.Base.Slogan
+
+@model Slogan
+
+<div class="slogan">
+    <div class="container">
+        <div class="row">
+            <div class="slogan-content vertical-align-lg">
+                <div class="col-lg-9 col-md-9">
+                    <h2 class="slogan-title text-center-sm text-center-xs">@Html.Sitecore().Field("Description", Model.ContextItem)</h2>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="slogan-btn text-center-sm text-center-xs">
+                        @Html.Sitecore().Field("Link", Model.ContextItem, new { @class = "btn btn-lg btn-primary pull-right-lg" })
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>

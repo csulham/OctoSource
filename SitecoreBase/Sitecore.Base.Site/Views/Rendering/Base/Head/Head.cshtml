@@ -1,0 +1,17 @@
+﻿@using Sitecore.Base.Helpers;
+@using System.Web.Mvc.Html
+@inherits System.Web.Mvc.WebViewPage
+
+<head>
+   
+    <meta charset="utf-8" />
+    <title>@SiteHelper.GetTitle()</title>
+    <meta name="description" content="@SiteHelper.GetMetaDescription()" />
+
+
+    @Html.Partial("~/Views/Rendering/Base/Head/Controls/Stylesheet.cshtml")
+    @Html.Partial("~/Views/Rendering/Base/Head/Controls/Favicon.cshtml")
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+

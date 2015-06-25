@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {155632D2-67F4-4897-92C3-DDEB6F5060D2}
+database: master
+path: /sitecore/templates/Branches/Base/Site Folder/$name/Home/Terms and conditions/Conditions/Condition 2
+parent: {72F3132D-87B4-4280-9EFF-A7E11896389D}
+name: Condition 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {0D2CB285-CD2F-4813-A8F8-59E18507CD60}
+templatekey: Page
+
+----version----
+language: en
+version: 1
+revision: cea94a72-8cc3-4363-a2d1-95ed9e8a9705
+
+----field----
+field: {C5FF90B1-683F-4313-BB5A-A54EB79EAA72}
+name: Page Title
+key: page title
+content-length: 11
+
+Condition 2
+----field----
+field: {5F1CC2C2-647F-4A7E-B8BB-CCE997649181}
+name: Navigation Title
+key: navigation title
+content-length: 11
+
+Condition 2
+----field----
+field: {C0F5E33F-967E-4662-B171-FE726F0769DD}
+name: Page Heading
+key: page heading
+content-length: 11
+
+Condition 2
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150106T150644
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cea94a72-8cc3-4363-a2d1-95ed9e8a9705
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150106T150644:635561536046488050
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

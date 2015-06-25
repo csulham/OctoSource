@@ -1,0 +1,42 @@
+﻿<script>
+    function getSearchResult() {
+        var inputparams = {};
+        inputparams.SearchTerm = document.getElementById("searchTerm").value;
+        $("#searchresult").empty();
+        try {
+            $.getJSON("/searchAPI/GetResults/?search=" + inputparams.SearchTerm, inputparams, displaySearchResult);
+        }
+        catch (ex) {
+            alert("Error : " + ex.message);
+        }
+    }
+
+    function displaySearchResult(data) {
+  
+        $.each(data, function (i, result) {
+            $("#searchresult").append("<article><h2>" + result.Title + "</h2><p><a href=" + result.Url + ">Go to page</a></p></article>");
+        });
+
+    };
+
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    $(document).ready(function () {
+        var keyword = getParameterByName("keyword");
+        $("#searchTerm").val(keyword);
+        $.getJSON("/searchAPI/GetResults/?search=" + keyword, displaySearchResult);
+    });
+
+   
+</script>
+
+<div>
+    <input type="text" name="searchTerm" id="searchTerm" class="form-control" />
+    
+    <input type="button" onclick="getSearchResult();" class="btn btn-lg btn-primary" value="Search" />
+    <div id="searchresult"></div>
+</div>

@@ -1,0 +1,25 @@
+﻿@using Sitecore.Base.Site.Models.Base.BreadCrumb
+@model Sitecore.Base.Site.Models.Base.BreadCrumb.BreadCrumb
+
+
+<div class="container breadcrumb-wrapper">
+
+    <ul class="breadcrumb">
+        @foreach (BreadCrumbItem menuItem in Model.MenuList)
+        {
+            <li class="@menuItem.Active">
+                @if (menuItem.Active == "active")
+                {
+                    @menuItem.Title
+                }
+                else
+                {
+                    <a href="@menuItem.Url">@menuItem.Title</a>
+                }
+
+
+            </li>
+        }
+    </ul>
+</div>
+

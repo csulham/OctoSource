@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {1288AC6D-073B-4EF1-B9AE-6D99270F54AD}
+database: master
+path: /sitecore/templates/Branches/Base/Site Folder/$name/Carousels/Default/Carousel Item 3
+parent: {339F47E9-6F03-4F6D-B4CB-1A1053EF3BE8}
+name: Carousel Item 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {316B69EF-A1C4-45BB-891E-64C59EA4BB16}
+templatekey: Carousel Item
+
+----version----
+language: en
+version: 1
+revision: cdca6b8e-0828-438c-b5b1-c8d296edbd94
+
+----field----
+field: {FFEF38FB-8D84-4E9E-8073-66CB2B61B4AF}
+name: Title
+key: title
+content-length: 15
+
+Carousel Item 3
+----field----
+field: {348004D3-829D-4ACF-A6DB-51A3354A8879}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{50CDF750-5BBF-4BED-9D05-AF9926AA3A82}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20150105T112531
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cdca6b8e-0828-438c-b5b1-c8d296edbd94
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20150106T153203:635561551233467551
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

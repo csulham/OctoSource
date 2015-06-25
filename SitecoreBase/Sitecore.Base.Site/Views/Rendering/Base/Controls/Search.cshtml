@@ -1,0 +1,22 @@
+﻿@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
+{
+
+    @Html.Sitecore().FormHandler()
+
+    <ul class="nav navbar-nav navbar-right">
+
+        <li>
+            <a class="dropdown-toggle-search" href="#" data-toggle="dropdown" id="navSearch">
+                <span class="glyphicon glyphicon-search"></span>
+                Search
+            </a>
+            <div class="dropdown-menu dropdown-form">
+                <input class="form-control" type="text" placeholder="Keyword" id="txtKeyword" name="Keyword">
+                <input class="btn btn-primary btn-block" type="submit" id="search" value="Search">
+            </div>
+        </li>
+
+    </ul>
+
+
+}

@@ -1,0 +1,19 @@
+﻿@using Sitecore.Base.Helpers
+@using Sitecore.Base.Site.Models.Base.Menu
+@using Sitecore.Data
+@using Sitecore.Links
+
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="col-lg-4 col-md-4 col-sm-4">
+    <div class="highlight-item">
+        <a href="@LinkManager.GetItemUrl(Model.Item)">
+            @Html.Sitecore().Field("Image Summary", new { @class = "img-responsive" })
+        </a>
+        <div class="highlight-indent">
+            <h3><a href="@LinkManager.GetItemUrl(Model.Item)">@Html.Sitecore().Field("Page Heading")</a></h3>
+            <p>
+                @Html.Sitecore().Field("Page Short Summary")
+            </p>
+        </div>
+    </div>
+</div>
