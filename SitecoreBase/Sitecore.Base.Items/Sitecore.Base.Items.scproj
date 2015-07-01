@@ -29,6 +29,7 @@
     <SccProvider>SAK</SccProvider>
     <SccAuxPath>SAK</SccAuxPath>
     <SccLocalPath>SAK</SccLocalPath>
+    <ManageRoles>False</ManageRoles>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,7 +51,8 @@
     <PackageReadme>
     </PackageReadme>
     <PackageVersion>1.0.0.0</PackageVersion>
-    <SitecoreAssemblyPath>C:\inetpub\wwwroot\MyCompanyDev\Website\bin</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>D:\Projects\Sitecore\OctoSource\SitecoreBase\Sitecore.Base.Site\bin</SitecoreAssemblyPath>
+    <PackageExcludeCode>False</PackageExcludeCode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -663,6 +665,9 @@
       <Project>{46681031-36fe-4170-90ee-0107ce9d7ab6}</Project>
       <Name>Sitecore.Base.Site</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
 </Project>

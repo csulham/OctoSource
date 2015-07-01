@@ -109,3 +109,29 @@ web/Website/App_Config/IISUrlRewrite.config
 web/Website/nCrunchTemp_*
 web/Website/App_Config/Include/ProdFEs.config
 web/Website/App_Config/IISUrlRewrite.config
+site/Databases/*
+SitecoreBase/Data
+SitecoreBase/Sitecore.Base.Site/App_Browsers
+SitecoreBase/Sitecore.Base.Site/sitecore
+SitecoreBase/Sitecore.Base.Site/bin
+SitecoreBase/Sitecore.Base.Site/sitecore_files/Web.config
+SitecoreBase/Sitecore.Base.Site/temp/readme.txt
+SitecoreBase/Sitecore.Base.Site/upload/readme.txt
+SitecoreBase/Sitecore.Base.Site/Views/Shared/ExperienceExplorerView.cshtml
+SitecoreBase/Sitecore.Base.Site/webedit.css
+SitecoreBase/Sitecore.Base.Site/xsl/sample rendering.xslt
+SitecoreBase/Sitecore.Base.Site/xsl/system/WebEdit/Hidden Rendering.xslt
+SitecoreBase/Sitecore.Base.Site/Web.config
+SitecoreBase/Website/Global.asax
+SitecoreBase/Sitecore.Base.Site/Default.aspx
+SitecoreBase/Sitecore.Base.Site/default.css
+SitecoreBase/Sitecore.Base.Site/default.htm.sitedown
+SitecoreBase/Sitecore.Base.Site/default.js
+SitecoreBase/Sitecore.Base.Items/bin
+SitecoreBase/Sitecore.Base.Items/obj
+SitecoreBase/Sitecore.Base.Site/layouts
+SitecoreBase/Sitecore.Base.Site/sitecore modules/Web/ExperienceExplorer
+SitecoreBase/Sitecore.Base.Site/obj
+SitecoreBase/Sitecore.Base.Items/Package_Debug
+SitecoreBase/Sitecore.Base.Site/App_Config
+SitecoreBase/Sitecore.Base.Site/Areas/Social/Views
