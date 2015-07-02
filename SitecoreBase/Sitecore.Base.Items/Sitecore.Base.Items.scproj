@@ -36,9 +36,9 @@
     <OutputPath>.\bin\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
-    <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreWebUrl>http://sitecorebase/</SitecoreWebUrl>
-    <SitecoreDeployFolder>C:\inetpub\wwwroot\SitecoreBase\Website</SitecoreDeployFolder>
+    <DisableFileDeployment>True</DisableFileDeployment>
+    <SitecoreWebUrl>http://octosource/</SitecoreWebUrl>
+    <SitecoreDeployFolder>D:\Projects\Sitecore\OctoSource\SitecoreBase\Sitecore.Base.Site</SitecoreDeployFolder>
     <SitecoreAccessGuid>45e54f40-e3a5-43ef-b2f9-8093838de323</SitecoreAccessGuid>
     <PackageName>MyCompanyPackage</PackageName>
     <GeneratePackage>True</GeneratePackage>

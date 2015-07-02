@@ -135,3 +135,5 @@ SitecoreBase/Sitecore.Base.Site/obj
 SitecoreBase/Sitecore.Base.Items/Package_Debug
 SitecoreBase/Sitecore.Base.Site/App_Config
 SitecoreBase/Sitecore.Base.Site/Areas/Social/Views
+SitecoreBase/Sitecore.Base.Site/_DEV
+SitecoreBase/Sitecore.Base.Site/temp
