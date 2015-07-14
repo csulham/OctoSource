@@ -59,8 +59,8 @@
     <OutputPath>.\bin\</OutputPath>
     <RecursiveDeployAction>Ignore</RecursiveDeployAction>
     <InstallSitecoreConnector>True</InstallSitecoreConnector>
-    <DisableFileDeployment>False</DisableFileDeployment>
-    <SitecoreWebUrl>http://mycompanydev/</SitecoreWebUrl>
+    <DisableFileDeployment>True</DisableFileDeployment>
+    <SitecoreWebUrl>http://octotarget.chriss.velir.com/</SitecoreWebUrl>
     <SitecoreDeployFolder>C:\inetpub\wwwroot\MyCompanyDev\Website</SitecoreDeployFolder>
     <SitecoreAccessGuid>3aebe584-6155-45a9-88a8-bfcbd622f9cd</SitecoreAccessGuid>
     <PackageName>MyCompanyPackage</PackageName>
@@ -74,9 +74,10 @@
     <PackageReadme>
     </PackageReadme>
     <PackageVersion>1.0.0.0</PackageVersion>
-    <SitecoreAssemblyPath>C:\inetpub\wwwroot\MyCompanyDev\Website\bin</SitecoreAssemblyPath>
+    <SitecoreAssemblyPath>C:\Program Files (x86)\Jenkins\workspace\OctoTest\SitecoreBase\Sitecore.Base.Site\bin</SitecoreAssemblyPath>
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Sitecore.Base.Items_Release.xml</ValidationSettingsFilePath>
+    <PackageExcludeCode>False</PackageExcludeCode>
   </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
